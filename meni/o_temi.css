@@ -1,0 +1,51 @@
+h1{
+	text-align: center;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+p{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 22px;
+}
+#o_temi{
+	position: fixed;
+	left: 60px;
+	right: 60px;
+
+}
+a{
+	text-decoration: none;
+	padding: 12px;
+	background-color: #e7e7e7;
+	color:black;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 22px;
+}
+#return{
+	display: inline;
+	position: fixed;
+	top:20px;
+	left: 10px;
+}
+textarea{
+	width: 90%;
+  	height: 150px;
+  	padding: 12px 20px;
+  	box-sizing: border-box;
+  	border: 2px solid #ccc;
+  	border-radius: 4px;
+  	background-color: #f8f8f8;
+  	font-size: 16px;
+  	resize: none;
+  	display: block;
+}
+#btn{
+	width: 90%;
+	height: 60px;
+	background-color: #4CAF50;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+}
+#btn:hover{
+	cursor: pointer;
+}

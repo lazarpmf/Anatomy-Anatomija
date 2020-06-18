@@ -1,0 +1,130 @@
+
+#info1{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding: 20px;
+	font-size: 30px;
+	background-color: yellow;
+}
+
+.hidden{
+	display: none;
+}
+.visible{
+	display: block;
+}
+#return{
+	display: inline;
+	position: fixed;
+	top:20px;
+	left: 10px;
+	width: 140px;
+}
+#naslov{
+	text-align: center;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+a{
+	text-decoration: none;
+	padding: 12px;
+	background-color: #e7e7e7;
+	color:black;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 22px;
+}
+#about{
+	display: inline;
+	position: fixed;
+	top:140px;
+	left: 10px;
+	width: 140px;
+}
+
+#facts{
+	display: inline;
+	position: fixed;
+	top:200px;
+	left: 10px;
+	width: 140px;
+}
+#slike{
+	display: inline;
+	position: fixed;
+	top:80px;
+	left: 10px;
+	width: 140px;
+}
+#gradja{
+	display: inline;
+	position: fixed;
+	top:80px;
+	left: 10px;
+	width: 140px;
+}
+
+#div{
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 50px;
+}
+#div p{
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		
+
+}
+#div h1{
+		font-family: "Arial Black", Gadget, sans-serif;
+
+}
+#pics{
+		margin-left: 100px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+}
+#bolesti{
+		display: inline;
+	position: fixed;
+	top:260px;
+	left: 10px;
+	width: 140px;
+}
+#td2{
+	border: solid grey 2px;
+	width: 450px;
+
+}
+#td2 h1{
+	text-align: center;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	color:#333;
+	cursor: pointer;
+}
+#td2 h1:hover{
+	color:red;
+}
+
+#title{
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	color:#333 !important;
+	position: fixed;
+	top: 40px;
+	left: 780px;
+	cursor: default !important;
+
+}
+#back{
+  
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  cursor: pointer;
+}
+#back:hover{
+	background-color: #ECEEF0;
+	color: black;
+}

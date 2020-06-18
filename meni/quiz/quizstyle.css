@@ -1,0 +1,63 @@
+h1{
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	
+}
+h3{
+	display: inline;
+	text-align: center;
+
+}
+
+#lista{
+		list-style: none;
+		margin-left: 100px;
+
+}
+li{
+	text-decoration: none;
+	display: inline;
+	padding: 16px;
+	background-color: #4CAF50;
+	cursor: pointer;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+a{
+	text-decoration: none;
+	color: white;
+	padding: 16px;
+}
+a:hover{
+	color: black;
+}
+li:hover{
+	background-color: #ECEEF0;
+
+}
+img{
+	width: 420px;
+	height: 400px;
+}
+
+td,tr{
+	border: solid black 1px;
+
+}
+td p{
+	text-align: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	background-color: yellow;
+}
+#kviz{
+	width: 900px;
+	margin-left: 140px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 22px;
+
+}
+#pocetna{
+	background-color: #ff6e00;
+}
+#pocetna:hover{
+	background-color: #ECEEF0;
+}

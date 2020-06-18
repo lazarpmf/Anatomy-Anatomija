@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hipodermis</title>
+	<link rel="stylesheet" type="text/css" href="cula.css">
+</head>
+<body>
+		<h1 id="naslov">Hipodermis</h1>
+		<a href="gradja_koze.html" id="return">Nazad</a>
+
+		<div id="div">
+			<p><b>Potkožno tkivo </b>nalazi se ispod krzna. U potkožnom tkivu talože se masti. Masno tkivo sprečava gubitak toplote iz tijela. Osim toga, ovo tkivo predstavlja rezeorvar energije.</p>
+			<p>Ako treniramo, a malo jedemo, trošimo energiju deponovanu u potkožnom tkivu.</p>
+
+		<center style="margin-top: 80px"><p>Interaktivno učenje je dobar vid učenja, pa pogledajte ovaj video:</p></center>
+		<br>
+		<br>
+		<!-- <a style=" margin-left: 25%" href="https://www.youtube.com/watch?v=OxPlCkTKhzY">https://www.youtube.com/watch?v=OxPlCkTKhzY</a> -->
+		<div style="margin-left: 17%" id="ytplayer"></div>
+		</div>
+
+
+
+
+</body>
+<script>
+  // Load the IFrame Player API code asynchronously.
+  var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/player_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  // Replace the 'ytplayer' element with an <iframe> and
+  // YouTube player after the API code downloads.
+  var player;
+  function onYouTubePlayerAPIReady() {
+    player = new YT.Player('ytplayer', {
+      height: '360',
+      width: '640',
+      videoId: 'OxPlCkTKhzY'
+    });
+  }
+</script>
+
+
+</html>

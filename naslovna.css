@@ -1,0 +1,54 @@
+body{
+	background-image: url("naslovna.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#naslov{
+	font-size: 50px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	color:#333;
+
+	margin-left: 24%;
+	margin-top: 27%;
+}
+#imena{
+	/*margin-left: 5%;
+	margin-bottom: 10%;
+	margin-top: 15%;*/
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: #334;
+}
+table{
+	width: 100%;
+	text-align: center;
+	margin-top: 8%;
+}
+/*#td1{
+	text-align: left;
+}
+table #td2{
+	text-align: right;
+}*/
+a{
+	font-family: "Arial Black", Gadget, sans-serif;
+	/*position: fixed;
+	left:85%;
+	top:85%;*/
+	/*margin-left: 80%;
+	margin-bottom: 45%;
+	margin-top: 10%;*/
+	margin-right: 10%;
+	padding: 12px;
+	font-size: 14px;
+	/*background-color:#e74c3c ;*/
+	border-radius: 0.6em;
+	border: solid #e74c3c 2px;
+	
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	background-color: #e74c3c;
+	cursor: pointer;
+	color: white;
+}
